@@ -1,6 +1,6 @@
 FROM ubuntu:16.04
 
-ENV UNITY_DOWNLOAD_URL=https://beta.unity3d.com/download/e20f6c7e5017/UnitySetup-2019.2.13f1
+ENV UNITY_DOWNLOAD_URL=https://beta.unity3d.com/download/8e603399ca02/UnitySetup-2019.2.17f1
 
 RUN apt-get update \
  && apt-get install -y curl libgtk2.0-0 libsoup2.4-1 python \
