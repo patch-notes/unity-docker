@@ -1,5 +1,3 @@
 #!/bin/sh
 
-Xvfb&
-export DISPLAY=:0
-/unity/Editor/Unity "$@" 
+xvfb-run /unity/Editor/Unity "$@" 
