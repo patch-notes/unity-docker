@@ -6,7 +6,7 @@ RUN apt-get update \
  && apt-get install -y curl libgtk2.0-0 libsoup2.4-1 python \
                        libarchive13 libglu1-mesa libgtk-3-0 \ 
                        libnss3 libasound2 libcap2 libgconf-2-4 \
-                       lsb-release libunwind-dev libssl-dev \
+                       lsb-release libunwind-dev libssl-dev git \
  && curl $UNITY_DOWNLOAD_URL > /tmp/unity-install \
  && chmod 755 /tmp/unity-install \
  && echo y|/tmp/unity-install --unattended -l /unity --components=Unity,WebGL,Mac-Mono,Windows-Mono -d /tmp/unity-download \
